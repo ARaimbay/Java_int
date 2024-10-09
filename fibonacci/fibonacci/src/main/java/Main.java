@@ -11,7 +11,7 @@ public class Main {
 
         System.out.printf("Hello and Welcome");
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 0; i <= 100; i++) {
             int fib = fibonacci(i);
             System.out.println("Fib i = " + i + " = " + fib);
         }
